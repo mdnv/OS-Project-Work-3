@@ -1,0 +1,8 @@
+Parent PID=1450, zombie PID=1452
+    PID    PPID STAT   RSS COMMAND
+   1450    1387 S+   11056 python3 zombie.py
+   1452    1450 Z+       0 [python3] <defunct>
+Zombie visible; waitpid in 2 seconds.
+Reaped PID=1452, code=42
+After waitpid: only the header should remain.
+    PID    PPID STAT   RSS COMMAND

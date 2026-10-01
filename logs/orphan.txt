@@ -1,0 +1,6 @@
+Orphan PID=1459: PPID 1458 -> 1
+Orphan and its actual adopter:
+    PID    PPID STAT   RSS COMMAND
+      1       0 Ss   12160 /sbin/init
+   1459       1 S+    9160 python3 orphan.py
+Orphan finished and was reaped. No demo processes remain.
